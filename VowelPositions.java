@@ -9,7 +9,7 @@ The last vowel is O at position 7.*/
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class VowelPositions {
     public List<Integer> solution(String s) {
         List<Integer> vowelPositions = new ArrayList<>();
         String vowels = "aeiouAEIOU"; // Define the vowels (both lowercase and uppercase)
