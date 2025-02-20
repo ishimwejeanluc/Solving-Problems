@@ -9,7 +9,7 @@ For example, for the input string "HelLo WoRld 123", the output should be "hELlO
 
 public class TransformString{
 
-public String transformString(String inputString) {
+public static String transformString(String inputString) {
     StringBuilder result = new StringBuilder();
     
     for( char ch : inputString.toCharArray()){
@@ -27,7 +27,7 @@ public String transformString(String inputString) {
  }
  public static void main(String[] args) {
     String input = "Hello World!";
-    String output = convertCase(input);
+    String output = transformString(input);
     System.out.println(output);  // hELLO wORLD!
 }
 }

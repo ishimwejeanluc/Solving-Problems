@@ -18,7 +18,7 @@ So, "Hello, World!" would be transformed to "Ifmmp, Xpsme!"
  */
 
 
-public class ShiftByoneCharacter {
+public class ShiftByOneCharacter {
     public static String shiftString(String s) {
         StringBuilder result = new StringBuilder(); // Use StringBuilder for efficient string concatenation
         
