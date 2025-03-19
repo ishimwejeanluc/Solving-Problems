@@ -5,7 +5,9 @@ If the array is empty, your function should return null.*/
 
 public class FindMinElement {
     public Integer findMinElement(int[] array) {
-        if( array.length > 0){
+        if( array.length == 0){
+            return null;
+        }
          int minElement = array[0];
     for ( int element : array){
         if( element < minElement){
@@ -13,9 +15,9 @@ public class FindMinElement {
         }
     }
     return minElement;   
-        }
-        return null;
-    }
+}
+       
+    
 
     public static void main(String[] args) {
         // Create an instance of Solution
