@@ -20,7 +20,7 @@ public class SwapPairs {
         String s2 = "abcde";
         String s3 = "abcdef";
 
-        System.out.println(solution.swapPairs(s1)); // Output: badcfe
+        System.out.println(solution.swapPairs(s1)); // Output: badcef
         System.out.println(solution.swapPairs(s2)); // Output: badce
         System.out.println(solution.swapPairs(s3)); //Output: badcfe
     }
